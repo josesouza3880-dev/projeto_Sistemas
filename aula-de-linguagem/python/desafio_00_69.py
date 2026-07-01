@@ -1,0 +1,11 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:11/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE: – Calcular quantos dólares é possível comprar (cotação: R$3,27)')
+
+real = float(input('compra dolar: '))
+d = (real/3,27)
+print(f'o valor é {real}')

@@ -1,0 +1,22 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:22/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE:Triângulos v2.0 (equilátero, isósceles, escaleno).')
+print('• Pegue o desafio 35 e, se os segmentos de reta puderem formar um triângulo, diga o tipo do triângulo:')
+print('• EQUILÁTERO: Três lados iguais')
+print('•ISÓSCELES: Dois lados iguais')
+print('• • ESCALENO: Todos os lados diferentes')
+print('-'*20)
+lado1=float(input('1º segmento: '))
+lado2=float(input('2º segmento: '))
+lado3=float(input('3º segmento: '))
+print('-'*20)
+if lado1==lado2==lado3:
+    print('equilátero')
+elif lado1==lado2 or lado1==lado3 or lado2==lado3:
+    print('isósceles')
+else:
+    print('escaleno')

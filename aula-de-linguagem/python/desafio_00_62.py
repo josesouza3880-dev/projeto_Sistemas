@@ -1,0 +1,11 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:11/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE: Calcular salário com 15% de aumento')
+p = float(input('digite o seu pagamento: '))
+s = 0.15
+ca = (p*0.15)
+print(f"o aumento foi de : R${ca:.2f}")

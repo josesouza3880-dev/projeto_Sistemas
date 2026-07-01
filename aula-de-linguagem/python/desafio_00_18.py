@@ -1,0 +1,16 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:13/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE:Mostrar maior e menor de três números.')
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+n3 = float(input("Digite o terceiro número: "))
+
+maior = max(n1, n2, n3)
+menor = min(n1, n2, n3)
+
+print(f"O maior número é {maior}")
+print(f"O menor número é {menor}")

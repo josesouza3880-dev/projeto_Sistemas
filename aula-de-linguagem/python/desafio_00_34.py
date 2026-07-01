@@ -1,0 +1,52 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:22/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE:49: Jokenpô contra o computador.')
+print('• Crie um programa que faça o computador jogar Pedra, Papel e Tesoura')
+print('Jokenpô) com você.')
+print('• O computador deve escolher aleatoriamente uma das opções e comparar')
+print('com a sua escolha para determinar o vencedor.')
+
+
+from random import randint 
+from time import sleep 
+dados = ('Pedra', 'Papel', 'Tesoura') 
+pc = randint(0, 2) 
+print('OPÇÕES:') 
+print('[1] Pedra') 
+print('[2] Papel') 
+print('[3] Tesoura') 
+jg = int(input('QUAL SUA OPÇÃO? ')) - 1 
+print('') 
+print('=>=' * 10) 
+print('') 
+sleep(1)
+print(' => PEDRA...') 
+print('') 
+sleep(1) 
+print(' => PAPEL...') 
+print('') 
+sleep(1) 
+print(' => TESOURA...') 
+sleep(1) 
+print('') 
+print('=~=' * 10) 
+print(f'COMPUTADOR ESCOLHEU: {dados[pc]}') 
+print('.' * 30) 
+print(f'VOCÊ ESCOLHEU: {dados[jg]}') 
+print('=~=' * 10) 
+if pc == 0: # Pedra 
+    if jg == 0: 
+        print('Empatou!!') 
+    elif jg == 1: print('Você venceu, parabéns!!') 
+    elif jg == 2: print('A Máquina venceu!!!!') 
+    else: 
+        print('Jogada inválida!!!!') 
+elif pc == 1: # Papel 
+    if jg == 0: print('A Máquina venceu!!!')
+    elif jg == 1: print('Empatou!!!') 
+    elif jg == 2: print('Você venceu, parabéns!!!!') 
+    else: print('Jogada inv')

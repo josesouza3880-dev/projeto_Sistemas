@@ -1,0 +1,12 @@
+print('CETAM-CENTRO EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONETE:LINGUAGEM DE PROGRAMAÇÃO')
+print('Data:07/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO:JOSÉ LUIZ SOUZA')
+print('ATIVIDADE:DATA DE NASCIMENTO FORMATADA')
+
+dia = input('DIGITE O DIA DO SEU NASCIMENTO: \n')
+mes = input('DIGITE O MÊS DO SEU NASCIMENTO: \n')
+ano = input('DIGITE O ANO DO SEU NASCIMENTO: \n')
+print('Você nasceu no dia ',dia,'do MÊS ',mes,'e o ano foi ',ano)

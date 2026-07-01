@@ -1,0 +1,13 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:11/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE: Converter metros em centímetros e milímetros')
+
+m = float(input('Converter metros: '))
+g = (m*100)
+h = (m*1000)
+print(f'{m*100:} em centímetro' )
+print(f'{m*1000:} milimetro ' )

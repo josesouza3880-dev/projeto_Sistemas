@@ -1,0 +1,17 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:11/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE: Funções Trigonométricas Leia um ângulo e mostre seno,cosseno e tangente.')
+
+import math
+ang = int(input('Ângulo: '))
+rad = math.radians(ang)
+seno = math.sin(rad)
+cosseno = math.cos(rad)
+tangente = math.tan(rad)
+print(f'o Ângulo de {ang} tem seno de {seno:.2f}')
+print(f'o Ângulo de {ang} tem cosseno de {cosseno:.2f}')
+print(f'o Ângulo de {ang} tem tangente de {tangente:.2f}')

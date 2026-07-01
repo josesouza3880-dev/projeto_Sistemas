@@ -1,0 +1,15 @@
+print('CETAM-CENTRO DE EDUCAÇÃO TECNOLÓGIGA DO AMAZONAS')
+print('CURSO:DESENVOLVIMENTO DE SISTEMA')
+print('COMPONENTE: LINGUAGEM DE PROGRAMAÇÃO')
+print('DATA:13/08/2025')
+print('PROFESSOR:MICHALES CAMURÇA')
+print('ALUNO: JOSÉ LUIZ SOUZA')
+print('ATIVIDADE: Ler nome de uma cidade e verificar se começa com “SÂO".')
+
+cidade = input("Digite o nome da cidade: ").strip()
+nome = input("Digite o nome : ").strip()
+print(f"Existe 'SÃO' na cidade? {'SÃO' in cidade}")
+print(f"Existe 'são' na nome? {'são' in nome}")
+print(f"Existe 'SÃO' na nome? {'SÃO' in nome}")
+print(f"Existe 'são' na cidade? {'são' in cidade}")
+
